@@ -22,7 +22,16 @@ class stack:
       self._top+=1
       self._a=ar
     #print(self._a)
-  #def apnd(self,ar.data):
+      return temp
+    def is_empty(self):
+      if self._top is None:
+        return True
+      return False
+    def is_full(self):
+      if self._top is not None:
+        if self._+==1
+         return True
+        return False
 
   def peek(self):
     if self._top is None:
