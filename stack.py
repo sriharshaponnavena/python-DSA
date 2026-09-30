@@ -23,15 +23,7 @@ class stack:
       self._a=ar
     #print(self._a)
       return temp
-    def is_empty(self):
-      if self._top is None:
-        return True
-      return False
-    def is_full(self):
-      if self._top is not None:
-        if self._+==1
-         return True
-        return False
+
 
   def peek(self):
     if self._top is None:
@@ -53,6 +45,16 @@ class stack:
     self._a=ar
     #print(self._a)
     return temp
+        def is_empty(self):
+      if self._top is None:
+        return True
+      return False
+    def is_full(self):
+      if self._top is not None:
+        if self._+==1
+         return True
+        return False
+
 stack=stack(3)
 stack.push(10)
 stack.push(20)
